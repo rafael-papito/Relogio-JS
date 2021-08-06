@@ -1,0 +1,27 @@
+section.relogio_analogico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.relogio {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black url(../imagens/relogio3.png);
+    background-size: cover;
+    border-radius: 50%;
+    border: 20px solid #fff;
+}
+.relogio:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #848484;
+    border: 2px solid #fff;
+    z-index: 10000;
+    border-radius: 50%;
+}
