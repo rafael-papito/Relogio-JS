@@ -77,3 +77,29 @@ section.relogio_analogico{
     z-index: 12;
     border-radius: 6px 6px 0 0;
 }
+/*Relógio Digital*/
+section.Relogio_Digital{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.relogioDigital{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 190px;
+}
+.hr2{
+    display: inline-block;
+    margin: 0 5px;
+}
+.min2{
+    display: inline-block;
+}
+.seg2{
+    display: inline-block;;
+}
