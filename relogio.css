@@ -47,3 +47,33 @@ section.relogio_analogico{
     position: absolute;
     border-radius: 50%;
 }
+/* ponteiro se horas */
+.hr:before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background: #848484;
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+/* ponteiro se minutos */
+.mn:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 90px;
+    background: #d6d6d6;
+    z-index: 11;
+    border-radius: 6px 6px 0 0;
+}
+/* ponteiro se segundos */
+.sg:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 150px;
+    background:red;
+    z-index: 12;
+    border-radius: 6px 6px 0 0;
+}
