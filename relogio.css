@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
 section.relogio_analogico{
     display: flex;
     justify-content: center;
@@ -100,6 +108,6 @@ section.Relogio_Digital{
 .min2{
     display: inline-block;
 }
-.seg2{
+/*.seg2{
     display: inline-block;;
-}
+}*/
