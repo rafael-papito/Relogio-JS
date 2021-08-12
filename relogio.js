@@ -12,3 +12,19 @@ setInterval(function(){
     sg.style.transform =`rotateZ(${segundos}deg)`
 })
 
+
+
+var teste = 6 
+var hrDigital = document.getElementById('hr2')
+var minDigital = document.getElementById('mn2')
+//var segDigital = document.getElementById('sg2')
+function carregar(){
+    var data = new Date()
+    horasDigital = data.getHours() 
+    minutosDigital = data.getMinutes() 
+    //segundosDigital = data.getSeconds() 
+
+    hrDigital.innerHTML = ` ${horasDigital}`
+    minDigital.innerHTML = `${minutosDigital}`
+    //segDigital.innerHTML = `${segundosDigital}`
+}
