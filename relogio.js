@@ -13,6 +13,14 @@ setInterval(function(){
 })
 
 
+/*
+-- rotateZ = é um propriedade css que é utilizada em sua maioria em JavaScript, ela, como o nome já dis, rotaciona um objeto, neste caso temos a variavel deg que recebe 6, então estamos falando para rotacionar (...conteudo{...conteudo})deg, que é rotocionar a 6.
+
+-- Quando vamos trabalhar com datas e horas, nós precisamos criar uma variavel para receber = new Date(), essa variavel depois se torna um objeto para dar apoio as funcões que fazem as horas por ex: getHours().
+
+-- O método setInterval () chama uma função ou avalia uma expressão em intervalos especificados (em milissegundos).
+*/
+
 
 var teste = 6 
 var hrDigital = document.getElementById('hr2')
